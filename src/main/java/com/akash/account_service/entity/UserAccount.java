@@ -20,7 +20,7 @@ public class UserAccount extends BaseEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Long id;
     private String userName;
     private String userPassword;
     private String address;
